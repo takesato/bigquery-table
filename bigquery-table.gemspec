@@ -28,4 +28,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rr'
   spec.add_development_dependency 'test-unit', '~> 3.0.2'
   spec.add_development_dependency 'test-unit-rr', '~> 1.0.3'
+  spec.add_development_dependency 'thor'
 end
