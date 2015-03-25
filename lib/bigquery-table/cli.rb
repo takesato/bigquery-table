@@ -15,7 +15,10 @@ module BigqueryTable
       empty_directory 'schema'
     end
 
+    desc 'update', 'update bigquery tables'
     def update
+      config = YAML.load_file('config.yml')
+      BigqueryTable::Utility.new(config, 'schema').update
     end
   end
 end
