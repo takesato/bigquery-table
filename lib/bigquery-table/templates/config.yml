@@ -1,0 +1,6 @@
+project: <YOUR_PROJECT>
+dataset: <YOUR_DATASET>
+email: <YOUR_EMAIL_OF_GOOGLE_DEVELOPERS_CONSOLE>
+private_key_path: <YOUR_P12_KEY>
+private_key_passphrase: notasecret
+auth_method: private_key
